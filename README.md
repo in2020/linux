@@ -6,3 +6,7 @@ source 명령어는 환경변수 재설정 명령어로 bash 내부 명령어다
 ```
 /etc/profile.d : 디렉토리 안에 모든 쉘스크립트를 실행한다. 
 ```
+## study 순서
+1. 파일구조
+1. boot sequence 
+1. 기본 명령어 
