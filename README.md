@@ -1,4 +1,5 @@
-# linux
+# Linux
+## Tips
 ```
 soure /etc/profile
 ```
@@ -6,6 +7,13 @@ source 명령어는 환경변수 재설정 명령어로 bash 내부 명령어다
 ```
 /etc/profile.d : 디렉토리 안에 모든 쉘스크립트를 실행한다. 
 ```
+### 포트포워드
+```
+iptables -t nat -A POSTROUTING -j MASQUERADE 
+iptables -t nat -A PREROUTING -p tcp -i eth0 --dport [FROM PORT] -j DNAT —to [IP]:[TO PORT] 
+```
+
+
 ## study 순서
 1. 파일구조
 1. boot sequence 
