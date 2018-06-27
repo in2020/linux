@@ -1,6 +1,6 @@
 # Linux
 ## Tips
-### source
+### bash source
 ```
 source /etc/profile
 ```
