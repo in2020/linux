@@ -6,9 +6,8 @@ source /etc/profile
 ```
 source 명령어는 환경변수 재설정 명령어로 bash 내부 명령어다. 실행 파일이 따로 존재하지 않는다. bash가 실행상태에서 실행이 가능하다.
 ### profile.d
-```
-/etc/profile.d : 디렉토리 안에 모든 쉘스크립트를 실행한다. 
-```
+/etc/profile.d 경로의 디렉토리.  
+디렉토리 안에 모든 쉘스크립트(*.sh)를 실행한다. 
 ### 포트포워드
 ```
 iptables -t nat -A POSTROUTING -j MASQUERADE 
