@@ -17,12 +17,13 @@ iptables -t nat -A PREROUTING -p tcp -i eth0 --dport [FROM PORT] -j DNAT —to [
 ssh -i [key file] [user]@[host] -f -p 22 -N -L 3306:127.0.0.1:3306
 ```
 
+### directories space
+```
+du -sh *
+```
+
+
 ## study 순서
 1. 파일구조
 1. boot sequence 
 1. 기본 명령어 
-
-## directories space
-```
-du -sh *
-```
