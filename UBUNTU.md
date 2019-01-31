@@ -6,6 +6,7 @@
   - Symbolic link는 inode를 새로 만들고 Hard link는 같은 inode를 사용한다. 
     Hard link는 원본 파일을 삭제 해도 문제 없음.
 - 파티션, 파일시스템, 볼륨, 마운트
+- LVM(Logical Volume Manager)
 - RAID(Redundant Array of Independent Disk)
   - RAID Linear, RAID0(fast), RAID1(mirror), RAID5(parity 1), RAID6(parity 2)
   - RAID 구성 확인 mdadm --detail --scan
