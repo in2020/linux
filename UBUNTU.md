@@ -3,6 +3,7 @@
 - 사용자 관리와 파일 속성
   - /etc/passwd, /etc/shadow, /etc/group 
   - /etc/group : sudo, daemon등 group에 사용자 추가하여 사용자 권한 관리
+    - adduser --gid [GROUP] [USER_ID]
     - usermod --groups sudo ubuntu : ubuntu 사용자 보조그룹에 sudo 그룹을 추가
   - /etc/skel : 새로운 사용자를 생성하면 홈 디렉토리에 기본 뼈대 파일 설정
   - inode : 리눅스/유닉스의 파일 시스템에서 사용하는 자료구조
