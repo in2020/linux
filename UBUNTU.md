@@ -14,3 +14,21 @@
 - RAID(Redundant Array of Independent Disk)
   - RAID Linear, RAID0(fast), RAID1(mirror), RAID5(parity 1), RAID6(parity 2)
   - RAID 구성 확인 mdadm --detail --scan
+- 런레벨
+  - /lib/systemd/system/default.target : 부팅 런레벨
+- 리눅스 관리자를 위한 개념과 명령어  
+  - dpkg -l 패키지이름 : 패키지 정보
+  - apt-get -y install 패키지이름 : 설치
+  - apt-cache depends 패키지이름 : 패키지 의존성 정보 출력
+  - apt-cache show 패키지이름 : 패키지의 정보를 화면에 출력한다.
+  - tar cvfJ my.tar.xz /etc/systemd : 묶기 + xz 압축
+  - tar xfJ my.tar.xz : xz 압축 해제 + tar 풀기
+  - cron, at
+  - rcconf
+  - route add default gw 192.168.111.254 dev ens32 : 게이트웨이 추가
+  - /etc/resolv.conf : DNS 서버 IP 설정 파일(KT : 168.126.63.1)
+  - /etc/hosts : 컴퓨터 호스트 이름과 FQDN 정보 파일
+  - ens32, ens33, eth0, eth1 : 랜카드 장치 이름 
+  - systemctl restart networking : 네트워크 설정 변경 후 시스템 적용 명령어
+  - nslookup : DNS 서버의 작동을 테스트
+  - /etc/network/interfaces : 네트워크 설정 파일
