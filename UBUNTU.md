@@ -24,7 +24,7 @@
   - tar cvfJ my.tar.xz /etc/systemd : 묶기 + xz 압축
   - tar xfJ my.tar.xz : xz 압축 해제 + tar 풀기
   - cron, at
-  - rcconf
+  - rcconf : Debian Runlevel configuration tool
   - route add default gw 192.168.111.254 dev ens32 : 게이트웨이 추가
   - /etc/resolv.conf : DNS 서버 IP 설정 파일(KT : 168.126.63.1)
   - /etc/hosts : 컴퓨터 호스트 이름과 FQDN 정보 파일
