@@ -35,3 +35,10 @@
   - /etc/hosts : 컴퓨터 호스트 이름과 FQDN 정보 파일
   - ens32, ens33, eth0, eth1 : 랜카드 장치 이름 
   - nslookup : DNS 서버의 작동을 테스트
+  - ufw : 방화벽
+    - ufw enable : 방화벽 설정
+    - ufw allow [port] : 포트 허용
+  - &, bg, jobs : 백그라운드 실행, 백그라운드 가동 프로세스 확인
+  - /lib/systemd/system/*.service : 서비스의 실행 스크립트 파일
+  - systemctl list -unit-files : 부팅 자동 실행 서비스 현황
+  - ps aux : 실행중이 프로세스 정보 함께 
