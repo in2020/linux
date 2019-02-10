@@ -27,10 +27,10 @@
   - rcconf : Debian Runlevel configuration tool
   - route add default gw 192.168.111.254 dev ens32 : 게이트웨이 추가
   - /etc/network/interfaces : 네트워크 정보(16.04 LTS) 
+    - systemctl restart networking : 네트워크 설정 변경 후 시스템 적용 명령어
   - /etc/netplan/*.yaml(17 버전 이후) : 네트워크 정보
-  - sudo netplan apply : 수정 사항 반영
+    - sudo netplan apply : 수정 사항 반영
   - /etc/resolv.conf : DNS 서버 IP 설정 파일(KT : 168.126.63.1)
   - /etc/hosts : 컴퓨터 호스트 이름과 FQDN 정보 파일
   - ens32, ens33, eth0, eth1 : 랜카드 장치 이름 
-  - systemctl restart networking : 네트워크 설정 변경 후 시스템 적용 명령어
   - nslookup : DNS 서버의 작동을 테스트
