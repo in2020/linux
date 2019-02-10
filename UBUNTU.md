@@ -30,7 +30,8 @@
     - systemctl restart networking : 네트워크 설정 변경 후 시스템 적용 명령어
   - /etc/netplan/*.yaml(17 버전 이후) : 네트워크 정보
     - sudo netplan apply : 수정 사항 반영
-  - /etc/resolv.conf : DNS 서버 IP 설정 파일(KT : 168.126.63.1)
+    - nameserver 등 도 yaml 파일에 설정
+  - /etc/resolv.conf(16.04): DNS 서버 IP 설정 파일(KT : 168.126.63.1)
   - /etc/hosts : 컴퓨터 호스트 이름과 FQDN 정보 파일
   - ens32, ens33, eth0, eth1 : 랜카드 장치 이름 
   - nslookup : DNS 서버의 작동을 테스트
