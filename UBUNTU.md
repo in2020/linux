@@ -1,5 +1,5 @@
 # ubuntu
-- 참고 서적 : 이것이 우분투 리눅스다.
+- 참고 서적 : 이것이 우분투 리눅스다.(16.04)
 - 사용자 관리와 파일 속성
   - /etc/passwd, /etc/shadow, /etc/group 
   - /etc/group : sudo, daemon등 group에 사용자 추가하여 사용자 권한 관리
