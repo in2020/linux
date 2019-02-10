@@ -34,4 +34,3 @@
   - ens32, ens33, eth0, eth1 : 랜카드 장치 이름 
   - systemctl restart networking : 네트워크 설정 변경 후 시스템 적용 명령어
   - nslookup : DNS 서버의 작동을 테스트
-  - /etc/network/interfaces : 네트워크 설정 파일
