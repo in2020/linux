@@ -40,6 +40,6 @@
     - ufw allow [port] : 포트 허용
   - &, bg, jobs : 백그라운드 실행, 백그라운드 가동 프로세스 확인
   - /lib/systemd/system/*.service : 서비스의 실행 스크립트 파일
-  - systemctl list-unit-files : 부팅 자동 실행 서비스 현황
+  - systemctl list-unit-files : 부팅 자동 실행 서비스 현황(systemctl을 상요하기 위해 apt-get install systemd)
     - systemctl enable [service] : 부팅 실행 서비스 
   - ps aux : 실행중이 프로세스 정보 함께 
